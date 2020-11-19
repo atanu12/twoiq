@@ -1,0 +1,40 @@
+#footer{
+    background: #2F363F;
+    color: #ffffff77;
+    text-align: center;
+    padding: 2em;
+    .footer-details{
+        p{
+            margin: 20px auto;
+        }
+
+        hr{
+            background: #ffffff77;
+        }
+
+        .termandc{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 1em 4em;
+        }
+        .last-footer{
+            color: #ffffff;
+            display: flex;
+            justify-content: space-between;
+            .copyright{
+                text-align: left;
+            }
+            .brand{
+                text-transform: uppercase;
+                p{
+                    font-weight: 500;
+                    span{
+                        color: $secondary-color;
+                    }
+                }
+            }
+        }
+    }
+
+}

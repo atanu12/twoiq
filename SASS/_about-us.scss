@@ -1,0 +1,52 @@
+#about-us{
+    background: $primary-color;
+    padding: 3em ;
+    .aboutus{
+        .row{
+            .about-left{
+                 background: url("https://images.pexels.com/photos/1181360/pexels-photo-1181360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+                 background-size: cover;
+                 clip-path:polygon(7% 14%, 70% 14%, 71% 68%, 49% 68%, 60% 89%, 37% 69%, 7% 69%)
+                  
+
+        }
+
+        .about-right{
+            .about-head{
+                text-align: center;
+                color: #ffffff;
+                h1{
+                    color: $secondary-color;
+                    font-weight: 700;
+                }
+            }
+
+            .about-corosel{
+               .carousel-indicators{
+                   li{
+                       height: 10px;
+                       width: 10px;
+                       border-radius: 50%;
+                   }
+               }
+                .carousel-item{
+                    img{
+                       margin: 50px auto;
+                        height:14vh;
+                        width: 20%;
+                        border-radius: 50%;
+                        align-items: center;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(200%, -50%);
+                    }
+                    .carousel-caption{
+                        margin: -10px auto;
+                    }
+                   
+                }
+            }
+        }
+    }
+}
+}

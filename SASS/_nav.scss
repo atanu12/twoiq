@@ -1,0 +1,42 @@
+
+.navbar{
+    padding:  1rem ;
+    background-color: #ffffff;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    .navbar-brand{
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        font-weight: 700;
+        font-size: 1.7rem;
+        list-style: none;
+        color: $primary-color;
+        span{
+            color: $secondary-color;
+        }
+    }
+    .navbar-brand:hover{
+        color: $primary-color;
+        span{
+            color: $secondary-color;
+        }
+    }
+    .navbar-nav{
+        .nav-item{
+            margin-right: 2rem;
+            .nav-link{
+                font-weight: 700;
+            }
+        }
+    }
+    .buton{
+        color: #ffffff;
+        background-color: $secondary-color;
+        border-radius: 50px;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        i{
+            color: #ffffff;
+        }
+    }
+}
+

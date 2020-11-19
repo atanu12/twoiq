@@ -1,0 +1,35 @@
+#claim-section{
+    .claim{
+        margin: 50px 0px;
+        
+        .claim-col{
+            text-align: center;
+            padding: 2em;
+            background-color: $primary-color;
+            color: #ffffff;
+        }
+        .claim-col:nth-child(2){
+            background-color: $secondary-color;
+            
+        }
+        .col-{
+            margin-left: 20px;
+            text-align: left;
+        }
+        .right-arrow{
+            img{
+                margin-left: 20px;
+                height: 50px;
+                filter: brightness(0) invert(1);
+            }
+        }
+        .social{
+            padding: 2em 0;
+            span{
+                font-size: 1rem;
+                font-weight: 700;
+            }
+        }
+
+    }
+}

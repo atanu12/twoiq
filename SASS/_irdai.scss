@@ -1,0 +1,20 @@
+#irdai-section{
+    margin: 20px 0;
+
+    .irdai{
+        display: flex;
+        justify-content: center;
+        .irdai-img{
+            padding-right: 2em;
+            img{
+                height: 80px;
+            }
+            
+        }
+        .irdai-description{
+            border-left: 5px solid #DAE0E2;
+            padding-left: 2em;
+            
+        }
+    }
+}

@@ -1,0 +1,31 @@
+#instruction{
+    padding: 3em;
+    .instruction-content{
+        margin: 10 auto;
+       .row{
+         .instruction-left{
+             .instruction-head{
+                 h1{
+                     font-weight: 700;
+                     color: $primary-color;
+                     text-transform: uppercase;
+                 }
+                 .instruction-details{
+                
+                 }
+             }
+         }  
+
+         .instruction-right{
+             img{
+                 width: 100%;
+                 margin-top: -100px;
+             }
+         }
+       } 
+    }
+}
+.inst-check{
+    height: 20px;
+}
+
