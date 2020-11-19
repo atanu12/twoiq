@@ -1,0 +1,26 @@
+
+$primary-color:#4834DF;
+$secondary-color: #F3B431;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+   
+}
+
+
+@import './top';
+@import './nav';
+@import './hero';
+@import './claim';
+@import "./irdai";
+@import './benifits';
+@import './policy-step';
+@import './policy-partner';
+@import './cov-advantage';
+@import './instructions';
+@import './about-us';
+@import './faq';
+@import './insurance-section';
+@import './footer'

@@ -1,0 +1,25 @@
+#policy-partner{
+    padding: 2em;
+    background-color: rgba(143, 243, 243, 0.171);
+    .p-partner{
+        margin: 0 auto;
+        .row{
+            .policy-left{
+                h1{
+                    margin-top: 50px;
+                    color: $primary-color;
+                    text-transform: uppercase;
+                    font-weight: 700;
+                }
+            }
+
+            .policy-right{
+                img{
+                    margin: 10px;
+                    height: 100px;
+                    background-color: #ffffff;
+                }
+            }
+        }
+    }
+}

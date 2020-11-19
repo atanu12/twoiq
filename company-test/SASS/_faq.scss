@@ -1,0 +1,56 @@
+#faq-section{
+    text-align: center;
+    padding: 2em;
+    .faaq{
+        .f-title{
+            text-transform: uppercase;
+            h5{
+                font-size: 2em;
+                font-weight: 700;
+            }
+        }
+        .f-head{
+            text-transform: uppercase;
+            color: $secondary-color;
+            margin: 30px auto;
+            h1{
+                font-weight: 700;
+            }
+        }
+
+        #accordion{
+            text-align: left;
+            .card{
+                margin: 10px auto;
+               
+            }
+            
+        }
+    }
+}
+
+#social-icons{
+    background: rgba(110, 190, 243, 0.137);
+    padding: 3em;
+    .pc{
+        .row{
+            .pc-left{
+                h1{
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    color: $primary-color;
+                    span{
+                        color: $secondary-color;
+                    }
+                }
+            }
+            .pc-right{
+                img{
+                    height: 40px;
+                    margin-right: 20px;
+                    
+                }
+            }
+        }
+    }
+}
