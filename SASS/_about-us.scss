@@ -1,13 +1,22 @@
 #about-us{
     background: $primary-color;
     padding: 3em ;
+    @media(max-width:922px){
+          padding: 2em;           
+    }
+    @media(max-width:430px){
+          padding: 1em;           
+    }
     .aboutus{
         .row{
             .about-left{
                  background: url("https://images.pexels.com/photos/1181360/pexels-photo-1181360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
                  background-size: cover;
-                 clip-path:polygon(7% 14%, 70% 14%, 71% 68%, 49% 68%, 60% 89%, 37% 69%, 7% 69%)
+                 clip-path:polygon(7% 14%, 70% 14%, 71% 68%, 49% 68%, 60% 89%, 37% 69%, 7% 69%);
                   
+                 @media(max-width:922px){
+                    display: none;
+                 }
 
         }
 
@@ -18,6 +27,9 @@
                 h1{
                     color: $secondary-color;
                     font-weight: 700;
+                    @media(max-width:430px){
+                        font-size:1.5em;
+                    }
                 }
             }
 
@@ -39,9 +51,32 @@
                         top: 50%;
                         left: 50%;
                         transform: translate(200%, -50%);
+                        @media(max-width:922px){
+                           
+                        width: 10%;
+                        margin-left: 24vw;
+                        
+                         }
+                        @media(max-width:760px){    
+                        width: 15%;
+                        margin-left: 15%; 
+                        
+                         }
+                        @media(max-width:430px){
+                        max-width:100px ; 
+                        height: 80px;  
+                        width: 15%;
+                        margin-left: 15%; 
+                        
+                         }
                     }
                     .carousel-caption{
                         margin: -10px auto;
+                        @media(max-width:922px){
+                           
+                           
+                            
+                             }
                     }
                    
                 }

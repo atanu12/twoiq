@@ -8,6 +8,12 @@
         .a-icons {
           display: flex;
           flex-direction: column;
+          @media(max-width:982px){
+          flex-wrap: wrap;
+          }
+          @media(max-width:572px){
+          padding: 2em 0;
+          }
           i {
             background: $primary-color;
             border: 3px solid $primary-color;
@@ -18,6 +24,18 @@
             font-size: 3.5rem;
             font-weight: 600;
             padding: 0.5em;
+            @media(max-width:982px){
+              font-size: 3em;
+              height: 110px;
+              width: 100px;
+              }
+            @media(max-width:580px){
+              font-size: 3em;
+              height: 90px;
+              width: 90px;
+              margin: 0 auto;
+              display: inline-flex;
+              
           }
           span{
             height: 120px;
@@ -28,7 +46,10 @@
             text-transform: uppercase;
           }
         }
+
+        
       }
     }
+  }
   }
 }

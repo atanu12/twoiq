@@ -1,16 +1,37 @@
 #insurance-section{
     padding: 3em;
     background: #4C4B4B;
+    @media(max-width:750px){
+        padding: 2em;
+    }
+}
     .insurance-details{
         display: flex;
         flex: 5;
+        margin: 1em;
         justify-content: space-evenly;
+        @media(max-width:1090px){
+            flex-wrap: wrap;
+            flex: 3;
+            margin: 1em;
+        }
+        @media(max-width:1090px){
+            
+        }
         .is-head{
             color: #ffffff;
             h5{
                 color: $secondary-color;
                 text-transform: uppercase;
                 font-weight: 700;
+                @media(max-width:750px){
+                    font-size: 1em;
+                }
+            }
+            p{
+                @media(max-width:750px){
+                    font-size: .9em;
+                }
             }
         }
     }
@@ -26,6 +47,13 @@ hr{
             justify-content: space-around;
             flex: 6;
             padding: 0 10rem;
+            @media(max-width:912px){
+                padding: 0%;
+            }
+            @media(max-width:416px){
+                div{
+                    font-size: 0em;
+                }
+            }
         }
     }
-}
