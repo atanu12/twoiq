@@ -165,6 +165,13 @@
                     text-transform: capitalize;
                     font-size: 1rem;
                 }
+                @media(max-width:768px){
+                  .col-{
+                    position: relative;
+                    width: 50%;
+                    padding-right: 15px
+                  }
+                }
                 input {
                   display: flex;
                   justify-content: center;
@@ -196,6 +203,10 @@
                     width: 30vw;
                     padding: 1em;
                     outline: none;
+
+                    @media(max-width:404px){
+                      width: 40vw;
+                    }
                 }
 
             }
