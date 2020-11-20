@@ -5,11 +5,17 @@ $secondary-color: #F3B431;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
+    
     
 //    @media(max-width: 992px){
 //        padding: .5em 0;
 //    }
 }
+ html,body{
+    width:100%;
+overflow-x:hidden;
+ }
 
 
 @import './top';
@@ -26,4 +32,3 @@ $secondary-color: #F3B431;
 @import './faq';
 @import './insurance-section';
 @import './footer';
-@import './mediaQuery';
